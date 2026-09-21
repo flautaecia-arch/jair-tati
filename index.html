@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f6f0e5">
+  <meta name="description" content="Convite de casamento civil de Jair & Tati">
+  <title>Jair & Tati — Nosso Casamento Civil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true">
+    <span>♡</span><span>♡</span><span>♡</span><span>♡</span><span>♡</span>
+  </div>
+
+  <main class="page">
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="rings">♡</div>
+      <p class="eyebrow">Um momento para celebrar o amor</p>
+      <h1>Jair <span>&amp;</span> Tati</h1>
+      <p class="subtitle">Nosso Casamento Civil</p>
+
+      <button class="open-button" id="openButton" type="button">
+        <span>♡</span> Abrir convite
+      </button>
+
+      <p class="hint">Toque para abrir e ouvir nossa música</p>
+    </section>
+
+    <section class="invitation" id="convite">
+      <div class="ornament">❦</div>
+
+      <div class="image-frame">
+        <img src="assets/convite.jpeg" alt="Convite de casamento civil de Jair e Tati">
+      </div>
+
+      <div class="music-box">
+        <button id="musicButton" class="music-button" type="button" aria-label="Tocar música">
+          <span id="musicIcon">▶</span>
+        </button>
+        <div>
+          <strong>Nossa música</strong>
+          <small>A Thousand Years</small>
+        </div>
+        <div class="sound-wave" id="soundWave" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+
+      <audio id="music" preload="auto" loop>
+        <source src="assets/musica.mp3" type="audio/mpeg">
+      </audio>
+
+      <div class="details">
+        <div class="detail">
+          <div class="icon">♡</div>
+          <span>Data</span>
+          <strong>24 de outubro</strong>
+        </div>
+        <div class="detail">
+          <div class="icon">⌂</div>
+          <span>Depois da cerimônia</span>
+          <strong>Em nossa casa</strong>
+        </div>
+      </div>
+
+      <div class="message">
+        <p>Depois de 6 anos compartilhando a vida, chegou a hora de oficializar essa história.</p>
+        <p>Queremos celebrar esse momento ao lado das pessoas que amamos, com carinho, boas conversas e um almoço especial.</p>
+      </div>
+
+      <div class="pix-card">
+        <span class="pix-title">Para quem quiser contribuir com nossa lua de mel</span>
+        <strong>11949357732</strong>
+        <button type="button" id="copyPix">Copiar Pix</button>
+        <small id="copyStatus">Toque para copiar a chave</small>
+      </div>
+
+      <div class="closing">
+        <div class="line"></div>
+        <span>Juntos é sempre melhor!</span>
+        <div class="line"></div>
+        <p>Com carinho,</p>
+        <h2>Jair &amp; Tati</h2>
+        <div class="heart">♡</div>
+      </div>
+
+      <footer>
+        Feito com amor para celebrar um novo capítulo.
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
